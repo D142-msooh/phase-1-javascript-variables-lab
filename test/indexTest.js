@@ -1,4 +1,6 @@
-require ( './helpers.js' );
+const {companyName, mostProfitableNeighborhood, companyCeo } = require('./helpers.js');
+const {describe} = require('mocha');
+const {expect} = require('chai');
 
 const fs = require('fs')
 const path = require('path')

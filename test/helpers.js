@@ -19,3 +19,14 @@ const src = babelResult.code
 jsdom({
   html, src
 });
+
+const companyName = 'Scuber';
+let mostProfitableNeighborhood = 'Chelsea';
+let companyCeo = 'Susan Smith';
+
+module.exports = {
+  companyName,
+  mostProfitableNeighborhood,
+  companyCeo
+};
+
